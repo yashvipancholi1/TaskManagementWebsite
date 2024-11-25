@@ -1,0 +1,256 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "name": "Admin User",
+      "email": "admin@example.com",
+      "password": "$2a$10$wsSajwP4W38KkadosUdMmO1BuBlF4FTh9KZ3MU7bQ7VHFJAJgCjWu",
+      "securityQuestion": "your pet's name",
+      "securityAnswer": "hashedAnswerHere",
+      "role": "admin",
+      "permissions": [
+        "Write"
+      ],
+      "status": "Active"
+    },
+    {
+      "id": "e048",
+      "name": "JC C",
+      "email": "jc@example.com",
+      "password": "$2a$10$ylUpIyAulfdDfnDjTUGrkuB6F/tAMW7SUGTGwhI1DfmhVXoTpNMXa",
+      "securityQuestion": "your favorite chocolate",
+      "securityAnswer": "choco",
+      "role": "user",
+      "status": "Active",
+      "permissions": [
+        "Read"
+      ]
+    },
+    {
+      "id": "8826",
+      "name": "jake",
+      "email": "jake@exampleadmin.com",
+      "password": "$2a$10$le6oizO//Y.hN7CA0Y/JY.whIljP6ZR2jwkNFiDIxMEwq35fkZHFW",
+      "securityQuestion": "your pet's name",
+      "securityAnswer": "jake",
+      "role": "admin",
+      "status": "Inactive",
+      "permissions": [
+        "Read"
+      ]
+    },
+    {
+      "id": "6a23",
+      "name": "coco",
+      "email": "coco@exam.com",
+      "password": "$2a$10$BO031XtznMJRamZBQQit/.b65LbaJpidYfAEKFUhECJ51V/ENFmhq",
+      "securityQuestion": "your pet's name",
+      "securityAnswer": "coco1",
+      "role": "admin",
+      "status": "Active",
+      "permissions": [
+        "Write"
+      ]
+    },
+    {
+      "id": "1732448769622",
+      "name": "Jane",
+      "email": "jane@exam.com",
+      "password": "support",
+      "status": "Active",
+      "role": "user",
+      "permissions": [
+        "Read"
+      ]
+    },
+    {
+      "id": "0188",
+      "name": "userFinal",
+      "email": "userF@example.com",
+      "password": "$2a$10$bk09OxRe1fERC2r7YiUGQO5VFPIE6cQeC9GjkeKdVp/DfRC7D6Gjm",
+      "securityQuestion": "your pet's name",
+      "securityAnswer": "user",
+      "role": "user",
+      "status": "Active",
+      "permissions": [
+        "Write"
+      ]
+    },
+    {
+      "id": "1732551111145",
+      "name": "yashvi",
+      "email": "yashvi@exam.com",
+      "password": "support",
+      "status": "Active",
+      "role": "user",
+      "permissions": [
+        "Read"
+      ]
+    },
+    {
+      "id": "1732552125523",
+      "name": "arpita",
+      "email": "a@example.com",
+      "password": "support",
+      "status": "Active",
+      "role": "user",
+      "permissions": [
+        "Read"
+      ]
+    },
+    {
+      "id": "1732552574804",
+      "name": "simran",
+      "email": "s@exam.com",
+      "password": "support",
+      "status": "Active",
+      "role": "user",
+      "permissions": [
+        "Read"
+      ]
+    },
+    {
+      "id": "1732552897924",
+      "name": "user9",
+      "email": "u9@example.com",
+      "password": "support",
+      "status": "Active",
+      "role": "user",
+      "permissions": [
+        "Read"
+      ]
+    },
+    {
+      "id": "1732553037077",
+      "name": "u10",
+      "email": "u10@exam.com",
+      "password": "support",
+      "status": "Active",
+      "role": "user",
+      "permissions": [
+        "Read"
+      ]
+    },
+    {
+      "id": "1732553752602",
+      "name": "u11",
+      "email": "u11@example.com",
+      "password": "support",
+      "status": "Active",
+      "role": "user",
+      "permissions": [
+        "Read"
+      ]
+    },
+    {
+      "id": "1732553823813",
+      "name": "u12",
+      "email": "u12@exmaple.com",
+      "password": "$2a$10$HY6srS7.knELXNoYV9Q9Ceq9n58yBpk9HQAoU6IynTWpNeDpnQ9L6",
+      "status": "Active",
+      "role": "user",
+      "permissions": [
+        "Read"
+      ]
+    },
+    {
+      "id": "5c64",
+      "name": "varun",
+      "email": "varun@example.com",
+      "password": "$2a$10$CkfhbXwv1NDJudgkpUCNmeHvML8Djnexf3vORG9Tq4/UxVoeuM2Fa",
+      "securityQuestion": "your pet's name",
+      "securityAnswer": "varun",
+      "role": "user",
+      "status": "Active",
+      "permissions": [
+        "Write"
+      ]
+    },
+    {
+      "id": "1732562686995",
+      "name": "johndoe",
+      "email": "johndoe@gmail.com",
+      "password": "$2a$10$nkoO4TIw6o2onp9TuboJOeBw2b/2HZzIREi4lLDjQn.hADkasNh7K",
+      "status": "Active",
+      "role": "user",
+      "permissions": [
+        "Read"
+      ]
+    }
+  ],
+  "tasks": [
+    {
+      "id": "101",
+      "userId": "1",
+      "name": "Complete React project",
+      "description": "Finish the React app by tomorrow.",
+      "priority": "High",
+      "dueDate": "2024-11-25"
+    },
+    {
+      "id": "102",
+      "userId": "e048",
+      "name": "Submit assignment",
+      "description": "Upload the assignment on the portal.",
+      "priority": "Medium",
+      "dueDate": "2024-11-27"
+    },
+    {
+      "id": "103",
+      "userId": "6a23",
+      "name": "Buy groceries",
+      "description": "Get eggs, milk, and bread.",
+      "priority": "Low",
+      "dueDate": "2024-12-01"
+    },
+    {
+      "id": "1732434916002",
+      "name": "task1",
+      "description": "",
+      "priority": "Medium",
+      "dueDate": "2024-11-24"
+    },
+    {
+      "id": "1732436048359",
+      "name": "ask2",
+      "description": "",
+      "priority": "Medium",
+      "dueDate": "2024-11-23"
+    },
+    {
+      "id": "1732436428043",
+      "name": "1",
+      "description": "",
+      "priority": "Medium",
+      "dueDate": "2024-11-10"
+    },
+    {
+      "id": "1732445007401",
+      "name": "task1",
+      "description": "",
+      "priority": "Medium",
+      "dueDate": "2024-11-24"
+    },
+    {
+      "id": 1732537761807,
+      "name": "Task9",
+      "description": "Task9",
+      "priority": "Medium",
+      "dueDate": "2024-11-12"
+    },
+    {
+      "id": 1732554409575,
+      "name": "1",
+      "description": "",
+      "priority": "Medium",
+      "dueDate": "2024-11-30"
+    },
+    {
+      "id": 1732555890257,
+      "name": "1",
+      "description": "",
+      "priority": "Medium",
+      "dueDate": "2024-11-30"
+    }
+  ]
+}
