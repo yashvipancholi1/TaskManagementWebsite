@@ -1,3 +1,5 @@
+It seems like the Markdown syntax isn't rendering properly in your `README.md` file because of formatting issues. Below is the **corrected and properly formatted** version of the `README.md` file you can use:
+
 ```markdown
 # Role-Based Access Control (RBAC) Task Management System
 
@@ -12,7 +14,7 @@ This system implements a **Task Management Platform** with role-based access and
 - **User Authentication**:
   - Secure **Sign-Up** and **Login** functionality.
   - Users can access the platform based on their **Active/Inactive** status.
-  
+
 - **Task List Access**:
   - Users with **Read** permission can view the Task List but cannot modify it.
   - Users with **Write** permission can view and make changes to the Task List.
@@ -68,7 +70,7 @@ This system implements a **Task Management Platform** with role-based access and
 
 ## 📂 Project Structure
 
-```
+```plaintext
 VRVSecurityRBACtask/
 ├── node_modules/
 ├── public/
