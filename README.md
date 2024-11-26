@@ -155,4 +155,3 @@ Contributions are welcome! Feel free to fork the repository, open an issue, or s
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
 ```
 
-You can directly copy and paste this into your `README.md` file.
