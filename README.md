@@ -69,7 +69,7 @@ VRVSecurityRBACtask/
 ├── tailwind.config.js      # Tailwind CSS configuration
 ├── vite.config.js          # Vite build configuration
 
----
+
 
 ## 🚀 Setup and Installation
 
