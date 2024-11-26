@@ -1,4 +1,3 @@
-```markdown
 # Role-Based Access Control (RBAC) Task Management System
 
 A secure and dynamic **Role-Based Access Control (RBAC)** system designed for efficient **Task Management**. This project provides an intuitive **Admin Dashboard** for managing users, roles, and permissions, ensuring users can only access and modify data based on their assigned roles and permissions.
@@ -69,7 +68,6 @@ VRVSecurityRBACtask/
 ├── postcss.config.js       # Tailwind/PostCSS configuration
 ├── tailwind.config.js      # Tailwind CSS configuration
 ├── vite.config.js          # Vite build configuration
-```
 
 ---
 
